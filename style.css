@@ -1,12 +1,35 @@
 .container {
     display: flex;
-    min-width: 100vh;
+    min-width: 20px;
     flex-wrap: wrap;
 }
-.inputs,
-.button {
+h1{
+	color:green;
+}
+.input-1
+{
     flex: 1;
-    border: 5px solid goldenrod;
+    border: 5px solid #00ff00;
     margin: 5px 5px 5px 5px;
     width: 100vh;
+    height:20px;
+}
+body{
+	background-color:#3D9970;
+background-image: url("https://i.pinimg.com/originals/1f/0d/c4/1f0dc401b845e4ffcec73f7d0dec690a.jpg");
+background-size: cover;
+}
+button{
+	margin: 5px 5px 5px 5px;
+	border-color:rgb(116,179,0);
+	padding:5px;
+	background-color: rgb(116,179,0);
+	border-radius:2px;
+}
+.tags{
+	font-weight:bold;
+	color:green;
+}
+.tags2{
+	font-weight:bold;
 }
